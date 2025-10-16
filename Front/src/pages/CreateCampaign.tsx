@@ -53,6 +53,19 @@ const CreateCampaign: React.FC<CreateCampaignProps> = ({ initialData, campaignId
     }
   }, [initialData, reset]);
 
+  // Convierte archivos a base64
+  const filesToBase64 = async (files: File[]): Promise<string[]> => {
+    const promises = files.map(file => {
+      return new Promise<string>((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onload = () => resolve(reader.result as string);
+        reader.onerror = reject;
+        reader.readAsDataURL(file);
+      });
+    });
+    return Promise.all(promises);
+  };
+
   const onSubmit = async (formData: CampaignCreate) => {
     try {
       setLoading(true);
@@ -127,6 +140,7 @@ const getCityFromCoords = async (lat: number, lng: number): Promise<string> => {
       }
 
       // Guardar campaña usando la función localStorage
+      const mediaFilesBase64 = await filesToBase64(uploadedFiles);
       if (campaignId) {
         // Editar campaña existente
         // @ts-ignore
@@ -135,6 +149,7 @@ const getCityFromCoords = async (lat: number, lng: number): Promise<string> => {
           ...formData,
           budget: budgetValue,
           target_locations: targetLocations,
+          media_files: mediaFilesBase64,
         });
         if (onSave) onSave();
         navigate(`/campaigns/${campaignId}`);
@@ -150,7 +165,7 @@ const getCityFromCoords = async (lat: number, lng: number): Promise<string> => {
           start_date: formatDateTime(formData.start_date),
           end_date: formatDateTime(formData.end_date, true),
           target_locations: targetLocations,
-          media_files: [],
+          media_files: mediaFilesBase64,
           product: formData.product || '',
           priority: formData.priority || 'medium',
           status: 'active',
