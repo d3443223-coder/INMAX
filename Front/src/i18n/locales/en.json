@@ -1,0 +1,249 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "delete": "Delete",
+    "view": "View",
+    "back": "Back",
+    "search": "Search",
+    "create": "Create",
+    "update": "Update",
+    "yes": "Yes",
+    "no": "No",
+    "confirm": "Confirm",
+    "close": "Close"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "campaigns": "Campaigns",
+    "createCampaign": "New Campaign",
+    "profile": "Profile",
+    "settings": "Settings",
+    "logout": "Logout"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "subtitle": "Overview of your advertising campaigns",
+    "configure": "Configure",
+    "totalCampaigns": "Total Campaigns",
+    "activeCampaigns": "Active Campaigns",
+    "totalViews": "Total Views",
+    "totalClicks": "Total Clicks",
+    "conversions": "Conversions",
+    "totalSpend": "Total Spend",
+    "viewAll": "View all",
+  "performanceChart": "Performance Chart",
+  "costByCampaignChart": "Costs by Campaign",
+  "activeCampaignsComparisonChart": "Active Campaigns: Current Month vs Last Month",
+  "campaignAxis": "Campaign",
+  "costAxis": "Cost",
+  "monthAxis": "Month",
+  "activeCampaignsAxis": "Active Campaigns",
+  "recentCampaigns": "Recent Campaigns",
+  "lastMonth": "Last Month",
+  "currentMonth": "Current Month"
+  },
+  "campaigns": {
+    "title": "Campaigns",
+    "subtitle": "Manage all your advertising campaigns",
+    "newCampaign": "New Campaign",
+    "searchPlaceholder": "Search campaigns...",
+    "filters": {
+      "all": "All",
+      "active": "Active",
+      "paused": "Paused",
+      "finished": "Finished",
+      "draft": "Drafts"
+    },
+    "status": {
+      "active": "Active",
+      "paused": "Paused",
+      "finished": "Finished",
+      "cancelled": "Cancelled",
+      "draft": "Draft"
+    },
+    "priority": {
+      "low": "Low",
+      "medium": "Medium",
+      "high": "High",
+      "urgent": "Urgent"
+    },
+    "metrics": {
+      "views": "Views",
+      "clicks": "Clicks",
+      "conversions": "Conversions",
+      "ctr": "CTR",
+      "conversionRate": "Conversion"
+    },
+    "actions": {
+      "viewDetails": "View Details",
+      "edit": "Edit",
+      "delete": "Delete",
+      "deleting": "Deleting..."
+    },
+    "empty": {
+      "title": "No campaigns",
+      "subtitle": "Create your first campaign to get started",
+      "createFirst": "Create Campaign"
+    }
+  },
+  "campaignForm": {
+    "title": "Create Campaign",
+    "editTitle": "Edit Campaign",
+    "basicInfo": "Basic Information",
+    "name": "Campaign Name",
+    "nameRequired": "Name is required",
+    "description": "Description",
+    "descriptionPlaceholder": "Describe the campaign objective...",
+    "budget": "Budget",
+    "budgetRequired": "Budget is required",
+    "budgetMin": "Budget must be greater than 0",
+    "channel": "Channel",
+    "channelRequired": "Channel is required",
+    "channelOptions": {
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "google": "Google Ads",
+      "twitter": "Twitter",
+      "linkedin": "LinkedIn",
+      "youtube": "YouTube"
+    },
+    "dates": "Dates",
+    "startDate": "Start Date",
+    "startDateRequired": "Start date is required",
+    "endDate": "End Date",
+    "endDateRequired": "End date is required",
+    "priority": "Priority",
+    "priorityRequired": "Priority is required",
+    "priorityOptions": {
+      "low": "Low",
+      "medium": "Medium",
+      "high": "High",
+      "urgent": "Urgent"
+    },
+    "actions": {
+      "save": "Save Campaign",
+      "saving": "Saving...",
+      "cancel": "Cancel",
+      "saveChanges": "Save Changes"
+    }
+  },
+  "campaignDetail": {
+    "title": "Campaign Details",
+    "notFound": "Campaign not found",
+    "notFoundMessage": "The campaign you're looking for doesn't exist or has been deleted.",
+    "backToCampaigns": "Back to Campaigns",
+    "description": "Description",
+    "dates": "Dates",
+    "budget": "Budget",
+    "views": "Views",
+    "clicks": "Clicks",
+    "conversions": "Conversions"
+  },
+  "login": {
+    "title": "Sign In",
+    "subtitle": "Access your INMAX AVISADORES account",
+    "email": "Email Address",
+    "emailRequired": "Email is required",
+    "emailInvalid": "Email is not valid",
+    "password": "Password",
+    "passwordRequired": "Password is required",
+    "loginButton": "Sign In",
+    "loggingIn": "Signing in...",
+    "forgotPassword": "Forgot your password?",
+    "noAccount": "Don't have an account?",
+    "register": "Register here"
+  },
+  "footer": {
+    "title": "INMAX AVISADORES",
+    "subtitle": "Advertising campaign management system",
+    "quickLinks": "Quick Links",
+    "followUs": "Follow Us",
+    "contact": "Contact",
+    "email": "Email: info@inmaxavisadores.com",
+    "phone": "Phone: +1 (555) 123-4567",
+    "copyright": "© 2024 INMAX AVISADORES. All rights reserved."
+  },
+  "language": {
+    "spanish": "Español",
+    "english": "English",
+    "portuguese": "Português"
+  },
+  "errors": {
+    "generic": "An error occurred",
+    "network": "Connection error",
+    "unauthorized": "Unauthorized",
+    "forbidden": "Access denied",
+    "notFound": "Not found",
+    "serverError": "Server error"
+  },
+  "createCampaign": {
+    "newCampaign": "New Campaign",
+    "basicInfo": "Basic Information",
+    "campaignName": "Campaign Name",
+    "campaignNamePlaceholder": "E.g. Spring Campaign 2025",
+    "product": "Product",
+    "productPlaceholder": "E.g. Shampoo, Shoes, etc.",
+    "description": "Description",
+    "descriptionPlaceholder": "Describe your campaign...",
+    "channel": "Channel",
+    "selectChannel": "Select a channel",
+    "priority": "Priority",
+    "budgetAndDates": "Budget and Dates",
+    "budget": "Budget",
+    "budgetPlaceholder": "E.g. 10000",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "location": "Location",
+    "selectTargetArea": "Select target area",
+    "useCurrentLocation": "Use my current location",
+    "mediaFiles": "Media Files",
+    "uploadImagesOrVideos": "Upload images or videos",
+    "demographics": "Demographics",
+    "save": "Save Campaign",
+    "preview": "Preview"
+  },
+  "indicators": {
+    "title": "Indicators",
+    "activeCampaigns": "Active Campaigns",
+    "monthlySpend": "Monthly Spend",
+    "totalInteractions": "Total Interactions",
+    "roi": "ROI",
+    "totalClicks": "Total Clicks",
+    "averageCPC": "Average CPC"
+  },
+  "reports": {
+    "title": "Reports",
+    "selectReport": "Select Report",
+    "startDate": "Start Date",
+    "generate": "Generate",
+    "types": {
+      "expense-by-campaign": "Expense by Campaign Report",
+      "expense-by-location": "Investment by Location Report",
+      "expense-by-product": "Investment by Product Report",
+      "expense-evolution": "Expense Evolution Report",
+      "campaign-info": "Detailed Campaign Report"
+    },
+    "headers": {
+      "Campaña": "Campaign",
+      "Gasto": "Expense",
+      "Estado": "Status",
+      "Fecha Inicio": "Start Date",
+      "Fecha Fin": "End Date",
+      "Ubicación": "Location",
+      "Gasto Total": "Total Expense",
+      "Cantidad de Campañas": "Campaign Count",
+      "Producto": "Product",
+      "ROI Estimado": "Estimated ROI",
+      "Mes": "Month",
+      "Variación": "Variation",
+      "Presupuesto": "Budget",
+      "Vistas": "Views",
+      "Clics": "Clicks",
+      "Conversiones": "Conversions",
+      "ROI": "ROI"
+    }
+  }
+}
